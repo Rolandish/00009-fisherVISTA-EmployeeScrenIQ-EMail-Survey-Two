@@ -20,7 +20,7 @@
         table td { border-collapse: collapse; }
         body { width: 100% !important; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; margin: 0 !important; padding: 0 !important; }
         img { outline: none !important; text-decoration: none !important; -ms-interpolation-mode: bicubic !important; }
-        body { color: #747474 !important; font-family:  arial, helvetica, sans-serif !important; }
+        body { color: #747474 !important; font-family: 'Open Sans','ArialNarrowRegular', arial, helvetica, sans-serif !important; }
         h1 a:active { color: #527B2A !important; }
         h2 a:active { color: #527B2A !important; }
         h3 a:active { color: #527B2A !important; }
@@ -34,24 +34,19 @@
         h5 a:visited { color: #527B2A !important; }
         h6 a:visited { color: #527B2A !important; }
         a:visited { color: #527B2A !important; }
-        a:hover { color: #527B2A !important; text-decoration: underline !important;}
-        a:active { color: #527B2A !important; text-decoration: underline !important;}
-        a.text:link { color: #003B65 !important; text-decoration: underline !important;}
-        a.text:active { color: #003B65 !important; text-decoration: underline !important;}
-        a.text:visited { color: #003B65 !important; text-decoration: underline !important;}
+        a:hover { color: #527B2A !important; text-decoration: underline !important; }
+        a.text:visited { color: #003B65 !important; }
         a.text:hover { color: #005592 !important; text-decoration: underline !important; }
         /* Survey Button Hover Colors */
         table.button:hover td {background: #005592 !important; cursor: pointer !important;}
         table.button:visited td {background: #005592 !important; cursor: pointer !important;}
         table.button:active td {background: #005592 !important; cursor: pointer !important;}
-        table.button td a:hover {color: #ffffff !important;}
-        table.button td a:active {color: #ffffff !important;}
+        table.button:hover td a {color: #ffffff !important;}
+        table.button:active td a {color: #ffffff !important;}
         table.button td a:visited {color: #ffffff !important;}    
         .footer a:hover { text-decoration: none !important; }
         .footer-small a:hover { text-decoration: underline !important; }
-        @media only screen and (max-device-width: 578px), only screen and (max-width: 578px) { 
-          table[id="body"] { width: 100% !important; }
-          table[id="body"] p.mobile-text { font-size: 14px !important;}
+        @media only screen and (max-device-width: 578px), only screen and (max-width: 578px) { table[id="body"] { width: 100% !important; }
           table[id="body"] .l-outie { padding: 0px !important; }
           table[id="body"] .l-body-point, table[id="body"] .l-footer, table[id="body"] .l-wrap, table[id="body"] .l-full-bleed, table[id="body"] .media-obj, table[id="body"] .media-content, table[id="body"] .btn, table[id="body"] .btn td { width: 100% !important; }
           table[id="body"] .l-body-point { border-top: none !important; border-right: none !important; border-left: none !important; }
@@ -74,8 +69,7 @@
         @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { table[id="body"] .l-banner img { display: none !important; }
           /*table[id="body"] .l-banner { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/trends_survey_2/images/background.png") !important; background-size: 43px 27px !important; }*/
 /*          table[id="body"] .l-banner img { display: none !important; }*/
-          table[id="body"] [id="logo"] { background: transparent url("http://hrmarketer.com/users/clients/employeescreeniq/trends_survey_2/images/esiq-em-logo.png") no-repeat center top !important; 
-          background-size: 350px 70px !important; }
+          table[id="body"] [id="logo"] { background: transparent url("http://hrmarketer.com/users/clients/employeescreeniq/trends_survey_2/images/esiq-em-logo.png") no-repeat center top !important; background-size: 350px 70px !important; }
           table[id="body"] [id="logo"] a { display: block !important; width: 350px !important; height: 70px !important; }
           table[id="body"] .icon { background-size: 82px 68px; width: 82px; height: 68px; }
           table[id="body"] .icon img { display: none !important; }
@@ -83,13 +77,12 @@
           table[id="body"] .icn-idcard { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/trends_survey_2/images/idcard.png") !important; background-position: left top !important; background-repeat: no-repeat !important;}
           table[id="body"] .icn-gift { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/trends_survey_2/images/giftcard.png") !important; background-position: left top !important; background-repeat: no-repeat !important; }
           table[id="body"] .arrow { background-image: url("http://hrmarketer.com/users/clients/employeescreeniq/trends_survey_2/images/arrow.png") !important; background-position: right top; !important; background-repeat: no-repeat !important; background-size: 95px 95px; width: 95px; height: 95px;} }
-        @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-device-width: 578px), only screen and (min-resolution: 144dpi) and (max-device-width: 578px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 578px), only screen and (min-resolution: 144dpi) and (max-width: 578px) { 
-          table[id="body"] .icon { display: block; width: 82px !important; height: 68px !important; background-size: 82px 68px !important; }}
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-device-width: 578px), only screen and (min-resolution: 144dpi) and (max-device-width: 578px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 578px), only screen and (min-resolution: 144dpi) and (max-width: 578px) { table[id="body"] .icon { display: block; width: 82px !important; height: 68px !important; background-size: 82px 68px !important; } }
       /*]]>*/
     </style>
   </head>
   
-  <body style="width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #747474; font-family:  Arial, Helvetica, sans-serif; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: #fDfDfD;"
+  <body style="width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #747474; font-family: 'Open Sans','ArialNarrowRegular', Arial, Helvetica, sans-serif; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: #fDfDfD;"
   bgcolor="#fDfDfD">
     <!-- Outer table wrap -->
     <table align="center" id="body" style="width: 100% !important; line-height: 100% !important; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: #fDfDfD; background-image: url('http://hrmarketer.com/users/clients/employeescreeniq/trends_survey_2/images/background.png'); background-repeat: repeat;"
@@ -154,54 +147,16 @@
                     <tbody>
                       <tr>
                         <td>
-                          <!-- Begin Headline -->
                           <table class="l-pad" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 100%; width: 100%; background-color: #f5f5f5;" bgcolor="#f5f5f5"
-                            width="100%" cellpadding="32" cellspacing="0">
+                          width="100%" cellpadding="32" cellspacing="0">
                             <tbody>
                               <tr>
                                 <td style="padding-bottom: 18px;">
-                                   <h1 class="notify" style="text-align: center; font-weight: normal; font-family:  arial, helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #527B2A; font-size: 24px; line-height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 12px; margin-left: 0;">How Do You Navigate the Complex<br />Landscape of Background Checks?</h1>
+                                   <h1 class="notify" style="text-align: center; font-weight: normal; font-family: 'Open Sans','ArialNarrowRegular', arial, helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #527B2A; font-size: 24px; line-height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 12px; margin-left: 0;">How Do You Navigate the Complex <br />Landscape of Background Checks?</h1>
                                   </td>
                               </tr>
                             </tbody>
                           </table>
-                          <!-- End Headline -->
-                          
-                          <!-- .l-pad -->
-                          <table class="l-pad" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 100%; width: 100%;"
-                            width="100%" cellpadding="32" cellspacing="0">
-                            <tbody>
-                              <tr>
-                                <td width="32%" style="width: 32%;  padding: 0px; background-color: #f5f5f5;" bgcolor="#f5f5f5">
-                                </td>
-                                
-                                <td width="36%" style="width: 36%;  padding: 0px; background-color: #f5f5f5;"
-                                bgcolor="#f5f5f5">
-                                  <!-- Begin Button -->
-                                  <table class="button" style="width: 100%; text-align: left; overflow: hidden; vertical-align: top; border-collapse: collapse; border-spacing: 0; float: left;">
-                                    <tbody>
-                                      <tr style="text-align: left; vertical-align: top;" align="left">
-                                        <td valign="middle"  onclick="location.href='https://www.surveymonkey.com/s/PWWLQRL'" align="center" valign="top" bgcolor="#003B65" style="margin: 0px; !important; border-radius: 4px; border-collapse: collapse !important;">
-                                          <br/ >
-                                          <a style="vertical-align: middle; color: #ffffff !important; line-height: 100%; text-align: center; font-family:  arial, helvetica, sans-serif; font-size: 18px; font-weight: bold; text-decoration: none;" href="https://www.surveymonkey.com/s/PWWLQRL" target="_blank">Take The Survey!</a>
-                                          <br/ >
-                                          <br/ > 
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!-- End Button -->
-                                  
-                                <td width="32%" style="width: 32%;  padding: 0px; background-color: #f5f5f5;" bgcolor="#f5f5f5">
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                          <!-- .l-pad -->
-                          
-                          
-                          
-                          
                           <!-- .l-pad -->
                           <table class="l-pad" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 100%; width: 100%;"
                           width="100%" cellpadding="32" cellspacing="0">
@@ -219,9 +174,9 @@
                                           width="82px" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; margin: 0px 0px 0px 0px;"
                                           />
                                         </td>
-                                        <td class="media" style="padding-bottom: 34px; width: 500px; vertical-align: top; border-collapse: collapse;"
+                                        <td class="media-content" style="padding-bottom: 34px; width: 500px; vertical-align: top; border-collapse: collapse;"
                                         valign="top" width="500">
-                                          <p class="mobile-text" style="color: #747474; font-family:  arial, helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 20px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span class="" style="font-weight:bold; color:#527B2A;">Today, your job candidate seems ideal for the position.</span> </br>Ten years ago, he got in a scuffle with the law. When the background check reveals a criminal history, what do you do?</p>
+                                          <p class="" style="color: #747474; font-family: 'Open Sans','ArialNarrowRegular', arial, helvetica, sans-serif; font-size: 12px; font-weight: normal; line-height: 20px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span class="" style="font-weight:bold; color:#527B2A;">Today, your job candidate seems ideal for the position.</span> </br>Ten years ago, he got in a scuffle with the law. When the background check reveals a criminal history, what do you do?</p>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -238,7 +193,7 @@
                                         </td>
                                         <td class="media-content" style="padding-bottom: 34px; width: 500px; vertical-align: top; border-collapse: collapse;"
                                         valign="top" width="500">
-                                          <p class="mobile-text" style="color: #747474; font-family:  arial, helvetica, sans-serif; font-size: 14px; line-height: 20px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><a class="text" style="font-weight:bold; color:#003B65;" href="https://www.surveymonkey.com/s/PWWLQRL" target="_blank">Take our 6th Annual Background Screening Trends Survey</a> </br>and share your experiences navigating the headline-making hiring situations shaking up the screening industry.</p>
+                                          <p style="color: #747474; font-family: 'Open Sans','ArialNarrowRegular', arial, helvetica, sans-serif; font-size: 12px; line-height: 20px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><a class="text" style="font-weight:bold; color:#003B65;" href="https://www.surveymonkey.com/s/PWWLQRL" target="_blank">Take our 6th Annual Background Screening Trends Survey</a> </br>and share your experiences navigating the headline-making hiring situations shaking up the screening industry.</p>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -253,9 +208,9 @@
                                           width="82px" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; margin: 0px 0px 0px 0px;"
                                           />
                                         </td>
-                                        <td class="media" style="padding-bottom: 34px; width: 398px; vertical-align: top; border-collapse: collapse;"
+                                        <td class="media-content-var" style="padding-bottom: 34px; width: 398px; vertical-align: top; border-collapse: collapse;"
                                         valign="top" width="398">
-                                          <p class="mobile-text" style="color: #747474; font-family:  arial, helvetica, sans-serif; font-size: 14px; line-height: 20px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span class="" style="font-weight:bold; color:#527B2A;">In return for your time, you'll be entered <br />to win a $250 Amazon gift card.</span> </br>Your opinion counts. Since 2010, more than 4,000 HR professionals have taken our annual survey!</p>
+                                          <p style="color: #747474; font-family: 'Open Sans','ArialNarrowRegular', arial, helvetica, sans-serif; font-size: 12px; line-height: 20px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span class="" style="font-weight:bold; color:#527B2A;">In return for your time, you'll be entered <br />to win a $250 Amazon gift card.</span> </br></br>Your opinion counts. Since 2010, more than 4,000 HR professionals have taken our annual survey!</p>
                                         </td>
                                         <td width="95" class="arrow" style="vertical-align: top; border-collapse: collapse; padding-top: 0; padding-right: 0px; padding-bottom: 34px; padding-left: 0;"
                                         valign="bottom" align="right">
@@ -272,14 +227,14 @@
                                     <table style="width: 100%; text-align: left; overflow: hidden; vertical-align: top; border-collapse: collapse; border-spacing: 0; float: left;">
                                       <tbody>
                                         <tr style="text-align: left; vertical-align: top;" align="left">
-                                          <td width="40%" valign="middle" class="button" style="margin: 0px; width: 40% !important; border-collapse: collapse !important;">
+                                          <td width="40%" valign="middle" class="button">
                                             <!-- Begin Button -->
                                             <table class="button" style="width: 100%; text-align: left; overflow: hidden; vertical-align: top; border-collapse: collapse; border-spacing: 0; float: left;">
                                               <tbody>
                                                 <tr style="text-align: left; vertical-align: top;" align="left">
                                                   <td valign="middle"  onclick="location.href='https://www.surveymonkey.com/s/PWWLQRL'" align="center" valign="top" bgcolor="#003B65" style="margin: 0px; !important; border-radius: 4px; border-collapse: collapse !important;">
                                                   <br/ >
-                                                  <a style="vertical-align: middle; color: #ffffff !important; line-height: 100%; text-align: center; font-family:  arial, helvetica, sans-serif; font-size: 18px; font-weight: bold; text-decoration: none;" href="https://www.surveymonkey.com/s/PWWLQRL" target="_blank">Take The Survey!</a>
+                                                  <a style="vertical-align: middle; color: #ffffff; line-height: 100%; text-align: center; font-family: 'Open Sans','ArialNarrowRegular', arial, helvetica, sans-serif; font-size: 18px; font-weight: bold; text-decoration: none;" href="https://www.surveymonkey.com/s/PWWLQRL" target="_blank">Take The Survey!</a>
                                                   <br/ >
                                                   <br/ > 
                                                   </td>
@@ -296,7 +251,7 @@
                                           </td>
                                           <!-- offer text -->
                                           <td width="55%" align="left" valign="top" style="margin: 0px; width: 55% !important; border-collapse: collapse !important;">
-                                            <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: #5B8726; line-height: 100%; text-align: left; font-family: arial, helvetica, sans-serif; font-size: 17px;">All participants will also receive a complimentary executive summary of the results <span style="text-decoration: underline;">before everyone else.</span></p>
+                                            <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: #5B8726; line-height: 100%; text-align: left; font-family: 'Covered By Your Grace', Comic Sans MS, arial, helvetica, sans-serif; font-size: 20px;">All participants will also receive a complimentary executive summary of the results <span style="text-decoration: underline;">before everyone else.</span></p>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -324,7 +279,7 @@
             <tr>
               <td>
                 <!-- Address -->
-                <p align="center" style="margin: 0px; padding: 0px; text-align: center; color: #222222; line-height: 21px; font-family:  Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;">
+                <p align="center" style="margin: 0px; padding: 0px; text-align: center; color: #222222; line-height: 21px; font-family: 'Open Sans','ArialNarrowRegular', Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;">
                 <span style="font-family: arial,helvetica,sans-serif;"><a style="color: #5B8726; text-decoration: none;" href="http://employeescreen.com" target="_blank">EmployeeScreenIQ</a> | P.O. Box 22627 | Cleveland, OH 44122 | <a style="color: #5B8726; text-decoration: none;" href="mailto:info@employeescreen.com">info@employeescreen.com</a> | (800) 235-3954</span>
                 <span style="font-family: arial,helvetica,sans-serif;">&nbsp;</span></p>
               </td>
